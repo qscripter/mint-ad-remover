@@ -1,0 +1,12 @@
+{
+  "name": "Mint Improver",
+  "version": "0.5.0",
+  "manifest_version": 2,
+  "description": "Remove sponsered content from the Mint app",
+  "content_scripts": [
+    {
+      "matches": ["https://wwws.mint.com/*"],
+      "css": ["main.css"]
+    }
+  ]
+}
